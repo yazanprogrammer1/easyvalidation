@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EasyValidation</string>
+    <string name="error_empty">Field cannot be empty</string>
+    <string name="error_email">Invalid Email</string>
+    <string name="error_password">Invalid Password</string>
+    <string name="error_phone">Invalid Phone</string>
+</resources>
