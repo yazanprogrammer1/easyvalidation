@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("maven-publish")
 }
 
 android {
@@ -39,6 +40,17 @@ android {
     }
 }
 
+//afterEvaluate {
+//    publishing {
+//        publications {
+//            create<MavenPublication>("release") {
+//                from(components["release"]) // استخدم "release" بدل "android"
+//            }
+//        }
+//    }
+//}
+
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -57,4 +69,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation (libs.kotlinx.coroutines.core)
+
+    implementation (libs.easyvalidation)
 }
