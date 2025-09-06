@@ -29,7 +29,7 @@ dependencyResolutionManagement {
 Then in your `build.gradle (app)`:
 ```gradle
 dependencies {
-    implementation 'com.github.YazanAbuAli:EasyValidation:1.0.0'
+    implementation 'com.github.yazanprogrammer1:easyvalidation:1.0.0'
 }
 ```
 ## 🛠️ Usage
